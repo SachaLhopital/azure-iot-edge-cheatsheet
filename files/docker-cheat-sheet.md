@@ -11,7 +11,7 @@
 --------
 
 - `docker run -d <image>` run image detached image (in the background)
-- `docker run -it <image> /bin/bash` run image /bin/bash (directly in terminal)
+- `docker run -it <image>` run image /bin/bash (directly in terminal)
 - `docker run -p <host_port>:<container_port> <image>` bind ports 
 
 -------------
