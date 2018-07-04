@@ -1,5 +1,7 @@
 # Azure IoT Edge Cheat Sheet
 
+([Previous](../README.md))
+
 - [Install azure cli on linux](https://docs.microsoft.com/fr-fr/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
 
 - `pip3 install azure-iot-edge-runtime-ctl` install using python 3
@@ -16,4 +18,6 @@
 
 - `iotedgectl login --address <container_registry_name>.azurecr.io --username <container_registry_name> --password <password>` login to the iot edge runtime
 
----------
+- `iotedgectl start` start the iot edge runtime (and all modules)
+
+- `iotedgectl stop` stop the iot edge runtime (and all modules)

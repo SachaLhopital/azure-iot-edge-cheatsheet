@@ -1,6 +1,8 @@
 # Docker Cheat Sheet (for IoT Edge)
 
-- `docker login -u <username> -p <password> <Loginserver>`
+([Previous](../README.md))
+
+- `docker login -u <username> -p <password> <container_registry_name>.azurecr.io`
 
 --------
 
