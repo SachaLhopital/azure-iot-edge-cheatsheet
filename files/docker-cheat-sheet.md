@@ -6,7 +6,12 @@
 
 --------
 
+- `docker build -t <image>:<tag> .` build an image in the current respository
+
+--------
+
 - `docker run -d <image>` run image detached image (in the background)
+- `docker run -it <image> /bin/bash` run image /bin/bash (directly in terminal)
 - `docker run -p <host_port>:<container_port> <image>` bind ports 
 
 -------------
