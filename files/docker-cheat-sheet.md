@@ -13,6 +13,7 @@
 - `docker run -d <image>` run image detached image (in the background)
 - `docker run -it <image>` run image /bin/bash (directly in terminal)
 - `docker run -p <host_port>:<container_port> <image>` bind ports 
+- `docker run -v <host_path>:<container_path> <image>` bind a volume (and create it if not existing)
 
 -------------
 
