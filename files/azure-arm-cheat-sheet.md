@@ -11,3 +11,7 @@
 - `az group create --name <resource group name> --location "West Europe"` create a ressource group with specific location
 
 - `az group deployment create --name <deployment name> --resource-group <resource group name> --template-file <template file>.json --parameters <parameters>` deploy a Json arm script with custom parameters on a specific resource group. 
+
+- `az group deployment validate --resource-group <resource group name> --template-file <template file>.json` validate whether a template is syntactically correct.
+
+- `az group deployment delete --name <deployment name> --resource-group <resource group name>` remove a specific deployment history 
